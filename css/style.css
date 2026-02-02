@@ -14,3 +14,16 @@ img {
   max-width: 100%;
   height: auto;
 }
+
+.flex-container {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.featured-image {
+  max-width: 300px;
+  height: auto;
+}
