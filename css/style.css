@@ -1,0 +1,29 @@
+body {
+  background-color: #f4f4f4;
+  font-family: Arial, sans-serif;
+}
+h1, h2 {
+  text-align: center;
+}
+
+p {
+  line-height: 1.6;
+}
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+.flex-container {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.featured-image {
+  max-width: 300px;
+  height: auto;
+}
